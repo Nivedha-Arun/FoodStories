@@ -3,6 +3,7 @@ html,body{
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
     overflow-x: hidden;
+    overflow-anchor: none;
 }
 
 a{
