@@ -442,10 +442,15 @@ a{
     
     .container .site-content .post-content > .post-image .img {
         width: 360px;
+        transition:none;
     }
 
     .container .site-content .post-content >.post-image .post-info {
         padding: .01rem;
+    }
+    
+    .container .site-content .post-content > .post-image .img:hover{
+        transform: none;
     }
 }
 
