@@ -435,6 +435,18 @@ a{
     .footer .container{
         grid-template-columns: repeat(1,1fr);
     }
+
+    .thumbnail-slider .thumbnail-container .content {
+        width: 16.3rem;
+    }
+    
+    .container .site-content .post-content > .post-image .img {
+        width: 360px;
+    }
+
+    .container .site-content .post-content >.post-image .post-info {
+        padding: .01rem;
+    }
 }
 
 
