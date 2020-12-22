@@ -19,14 +19,6 @@ $('.site-background button').click(function() {
     },2000);
 })
 
-$('.site-background button').click(function() {
-    $('html,body').animate({
-        scrollTop:600
-    },2000);
-})
-
-$(window).resize(function(){ location.reload()});
-
 const controls=document.querySelector(".controls")
 const container=document.querySelector(".thumbnail-container");
 const allBox=container.children;
